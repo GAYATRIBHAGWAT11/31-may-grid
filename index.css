@@ -1,0 +1,61 @@
+/* #container{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-areas: "head head"
+    "nav main"
+    "nav foot";
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px;
+}
+#container > header{
+    grid-area: head;
+    background-color: blue;
+}
+
+#container > nav{
+    grid-area: nav;
+    background-color: red;
+}
+#container > main{
+    grid-area: main;
+    background-color: yellow;
+}
+#container > footer{
+    grid-area: footer;
+    background-color: green;
+} */
+
+#practice {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas: "head head"
+                         "nav main"
+                         "nav  foot";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+    grid-template-columns: 300px 200px;
+  }
+  
+  #practice > header {
+    grid-area: head;
+    background-color: palevioletred;
+  }
+  
+  #practice > nav {
+    grid-area: nav;
+    background-color: black;
+    color: white;
+  }
+  
+  #practice > main {
+    grid-area: main;
+    background-color: pink;
+  }
+  
+  #practice > footer {
+    grid-area: foot;
+    background-color: black;
+    color: white;
+  }
